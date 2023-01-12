@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.27.2",
+    "stylelint": "^14.16.1",
+    "stylelint-config-standard": "^29.0.0"
+  },
+  "scripts": {
+    "lint": "eslint --fix --ext .js,.jsx .",
+    "stylelint": "stylelint **/*.css --config .stylelintrc.json --ignore-disables --allow-empty-input"
+  }
+}
