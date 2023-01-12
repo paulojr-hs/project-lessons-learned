@@ -34,6 +34,11 @@ img {
   color: #fff;
 }
 
+#dinos-article {
+  color: rgb(255 255 255 / 70%);
+  width: 50%;
+}
+
 #footer {
   background-color: rgb(255 255 255 / 12%);
   display: flex;
