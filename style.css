@@ -12,3 +12,8 @@ body {
 #header-title {
   color: #fff;
 }
+
+img {
+  width: 250px;
+  border-radius: 20px;
+}
