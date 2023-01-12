@@ -36,12 +36,21 @@ img {
 
 #footer {
   background-color: rgb(255 255 255 / 12%);
+  display: flex;
   text-align: center;
   margin-bottom: 0;
   height: 20px;
 }
 
+#linkedin-link {
+  color: rgb(0 119 181);
+  width: 50%;
+  margin: 0;
+}
+
 #footer-text {
   color: rgb(255 255 255 / 50%);
-  height: 20px;
+  text-align: right;
+  width: 50%;
+  margin: 0;
 }
