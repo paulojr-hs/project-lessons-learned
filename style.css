@@ -1,3 +1,14 @@
 body {
   background-color: #121212;
 }
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#header-title {
+  color: #fff;
+}
