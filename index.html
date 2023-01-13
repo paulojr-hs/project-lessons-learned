@@ -1,93 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
-</head>
-<body>
-  <header id="header">
-    <div>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>About Paulo</title>
+  </head>
+
+  <body>
+    <header id="header">
       <h1 id="header-title">Trybe - Project Lessons Learned</h1>
-    </div>
-  </header>
+    </header>
 
-  <div>
-    <img id="my-picture" src="me.jpg" alt="Picture of Paulo">
-  </div>
+    <main>
+      <section>
+        <div id="images-div">
+          <img id="my-picture" src="me.jpg" alt="Picture of Paulo">
+        </div>
 
-  <div>
-    <ol id="lessons-learned">
-      <h2 id="ol-title">Lessons Learned:</h2>
+        <div id="contacts-div">
+          <h2>Contacts</h2>
+          <a id="linkedin-link" href="https://www.linkedin.com/in/paulojr-hs/" target="_blank">LinkedIn</a>
+          <a href="https://github.com/paulojr-hs">Git Hub</a>
+          <h3>paulojr.hs@gmail.com</h3>
+        </div>
 
-      <li>Unix & Bash</li>
-      <li>Terminal Navegation</li>
-      <li>Git & GitHub</li>
-      <li>HTML & CSS</li>
-      <li>Soft Skills</li>
-    </ol>
-  </div>
+        <div id="table-div">
+          <h2 id="table-title">Things i Like</h2>
+          <table>
+            <th>Movies</th>
+            <th>Games</th>
+            <th>Musics</th>
 
-  <div>
-    <ul id="lessons-to-learn">
-      <h2 id="ul-title">Lessons to Learn:</h2>
+        <tbody>
+          <tr>
+            <td>Interestellar</td>
+            <td>RDR 2</td>
+            <td>Rap God - Eminem</td>
+          </tr>
+          <tr>
+              <td>Inception</td>
+              <td>Bioshock</td>
+              <td>Question - Tristam</td>
+            </tr>
+            <tr>
+              <td>The Thing</td>
+              <td>Outlast</td>
+              <td>New Noise - Refused</td>
+            </tr>
+            <tr>
+              <td>Get Out</td>
+              <td>Battlefield</td>
+              <td>The Search - NF</td>
+            </tr>
+            <tr>
+              <td>Matrix</td>
+              <td>Forza</td>
+              <td>In The Dark - Tiesto</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
 
-      <li>JavaScript</li>
-      <li>Unit Tests</li>
-      <li>REACT</li>
-      <li>Docker</li>
-      <li>SQL</li>
-      <li>Python</li>
-    </ul>
-  </div>
+    <section>
+      <div class="left-side">
+        <h2 id="article-title">About Dinossaurs</h2>
+        <article id="dinos-article">
+          <p>
+            Dinosaurs were reptiles that dominated the Earth from the Upper Triassic (231 million years ago),
+            throughout the Jurassic, to the end of the Cretaceous, 65 million years ago.
+            Between herbivores and carnivores,
+            it could reach 37 meters in height and 70 tons like the <i>Patagotitan</i>
+            or 39 cm weighing only 162 grams like <i>Maniraptoran</i>.<br>
+            Chickens are descendants of T-Rex! &#129430 &#128019
+          </p>
+        </article>
+      </div>
 
-  <div>
-    <article id="dinos-article">
-      <h2 id="article-title">About Dinossaurs</h2>
-      Dinosaurs were reptiles that dominated the Earth from the Upper Triassic (231 million years ago),
-      throughout the Jurassic, to the end of the Cretaceous, 65 million years ago.
-      Between herbivores and carnivores, it could reach 37 meters in height and 70 tons like the <i>Patagotitan</i>
-      or 39 cm weighing only 162 grams like <i>Maniraptoran</i>.<br>
-      Chickens are descendants of T-Rex! &#129430 &#128019
-    </article>
+      <div class="rigth-side">
+        <h2 id="aside-title">About me</h2>
+        <aside id="about-me-aside">
+          <p>
+            My name is Paulo, 22 years old and living in Brazil...
+            I'm studying programming to become a <i>Full-Stack Web Dev</i>,
+            so that one day I can create an article/site about dinosaurs better than the one on the left side hehe'
+          </p>
+        </aside>
+      </div>
+    </section>
 
-    <aside id="about-me-aside">
-      My name is Paulo, 22 years old and living in Brazil... I'm studying programming to become a <i>Full-Stack Web Dev</i>,
-      so that one day I can create an article/site about dinosaurs better than the one on the left side hehe'
-    </aside>
-  </div>
+    <section>
+      <div class="lists">
+        <h2 id="ol-title">Lessons Learned</h2>
 
-  <div id="table-div">
-    <h2 id="table-title">Things i Like</h2>
-    <table>
-        <th>Movies</th>
-        <th>Games</th>
-        <th>Musics</th>
+        <ol id="lessons-learned">
+          <li>Unix & Bash</li>
+          <li>Terminal Navegation</li>
+          <li>Git & GitHub</li>
+          <li>HTML & CSS</li>
+          <li>Soft Skills</li>
+        </ol>
+      </div>
 
-      <tbody>
-        <tr>
-          <td>Interestellar</td>
-          <td>RDR 2</td>
-          <td>Rap God - Eminem</td>
-        </tr>
-        <tr>
-          <td>Inception</td>
-          <td>Bioshock</td>
-          <td>Question - Tristam</td>
-        </tr>
-        <tr>
-          <td>The Thing</td>
-          <td>Outlast</td>
-          <td>New Noise - Refused</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+      <div class="lists">
+        <h2 id="ul-title">Lessons to Learn</h2>
+
+        <ul id="lessons-to-learn">
+          <li>JavaScript</li>
+          <li>REACT</li>
+          <li>Docker</li>
+          <li>SQL</li>
+          <li>Python</li>
+        </ul>
+      </div>
+    </section>
+    </main>
 
   <footer id="footer">
-    <a id="linkedin-link" href="https://www.linkedin.com/in/paulojr-hs/" target="_blank">LinkedIn</a>
     <p id="footer-text">Paulo dev | LTDA</p>
   </footer>
 </body>
