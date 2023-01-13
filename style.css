@@ -19,7 +19,7 @@ img {
 }
 
 #lessons-learned {
-  color: rgb(255 255 255 / 70%);
+  color: rgba(255 255 255 / 70%);
 }
 
 #ol-title {
@@ -27,7 +27,7 @@ img {
 }
 
 #lessons-to-learn {
-  color: rgb(255 255 255 / 70%);
+  color: rgba(255 255 255 / 70%);
 }
 
 #ul-title {
@@ -35,13 +35,44 @@ img {
 }
 
 #dinos-article {
-  color: rgb(255 255 255 / 70%);
+  color: rgba(255 255 255 / 70%);
   width: 50%;
 }
 
 #about-me-aside {
-  color: rgb(255 255 255 / 70%);
+  color: rgba(255 255 255 / 70%);
   width: 50%;
+}
+
+#table-div {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+#table-title {
+  color: #fff;
+  margin: 10px;
+  width: 100%;
+}
+
+table {
+  border: solid 0.5px rgba(255 255 255 / 12%);
+  color: rgba(255 255 255 / 70%);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+td {
+  background-color: rgb(255 255 255 / 8%);
+  border: solid 0.5px rgba(255 255 255 / 12%);
+  color: rgba(255 255 255 / 70%);
+  border-radius: 20px;
+  padding: 5px;
+  margin: 5px;
 }
 
 #footer {
